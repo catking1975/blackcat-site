@@ -1,0 +1,25 @@
+local_backend: true
+
+backend:
+  name: test-repo
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "cities"
+    label: "城市"
+    folder: "content/cities"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "標題", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "封面", name: "coverImage", widget: "image", required: false }
+      - { label: "OS", name: "os", widget: "text", required: false }
+      - { label: "副標題", name: "subtitle", widget: "string", required: false }
+      - { label: "介紹", name: "intro", widget: "text", required: false }
+      - { label: "發布", name: "published", widget: "boolean", default: true }
+      - { label: "內容", name: "body", widget: "markdown", required: false }

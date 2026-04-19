@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <g fill="#94a3b8" font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="360" font-size="70" font-weight="700">City Image</text>
+    <text x="600" y="430" font-size="38">內容正在準備中，暫時使用中性預設圖</text>
+  </g>
+  <circle cx="870" cy="210" r="120" fill="#334155" opacity="0.45" />
+  <circle cx="240" cy="620" r="150" fill="#334155" opacity="0.45" />
+</svg>
